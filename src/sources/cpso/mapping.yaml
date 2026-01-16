@@ -1,2 +1,10 @@
-# Placeholder mapping for College of Physicians and Surgeons of Ontario
-# source_field: canonical_field
+source_to_canonical:
+	registrationNumber: physician_id
+	fullName: full_name
+	primarySpecialty: specialty_code
+	registrationStatus: license_status
+	practiceLocation.province: location_code
+	lastUpdated: updated_at
+notes:
+	- physician_id is stored as "cpso-{registrationNumber}" to ensure global uniqueness
+	- practiceLocation.province is coerced to ISO 3166-2 (default CA-ON)

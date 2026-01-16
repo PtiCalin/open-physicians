@@ -1,2 +1,10 @@
-# Placeholder mapping for College of Physicians and Surgeons of British Columbia
-# source_field: canonical_field
+source_to_canonical:
+	cpid: physician_id
+	fullName: full_name
+	registration_status: license_status
+	specialty: specialty_code
+	practiceProvince: location_code
+	last_modified: updated_at
+notes:
+	- physician_id is represented as "cpsbc-{cpid}"
+	- Location codes default to CA-BC when province information is missing

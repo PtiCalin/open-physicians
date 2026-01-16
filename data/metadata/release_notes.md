@@ -8,3 +8,5 @@
 - Details scrape URLs, throttle guidance, and legal references per source README
 - Adds scripts/maintenance/update_source_placeholders.py to regenerate docs programmatically
 - Adds scripts/maintenance/scaffold_source_modules.py plus initial adapter scaffolding and registry docs
+- Documents adapter structure/status in src/sources/README.md and seeds packages for every regulator listed in docs/sources.md
+- Implements CPSO and CPSBC adapters (fetch/parse/mapping) with regression tests under tests/sources/
