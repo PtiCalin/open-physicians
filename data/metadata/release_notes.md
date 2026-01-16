@@ -10,3 +10,5 @@
 - Adds scripts/maintenance/scaffold_source_modules.py plus initial adapter scaffolding and registry docs
 - Documents adapter structure/status in src/sources/README.md and seeds packages for every regulator listed in docs/sources.md
 - Implements CPSO and CPSBC adapters (fetch/parse/mapping) with regression tests under tests/sources/
+- Updates pipeline extract/transform to orchestrate CMQ+CPSO+CPSBC and append scrape runs to data/metadata/scrape_log.csv
+- Adds scripts/dev/run_stub_extract.py to exercise the pipeline locally and seed the first real scrape log entries

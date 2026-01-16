@@ -1,2 +1,5 @@
 timestamp,source,status,details
 2026-01-16T00:00:00Z,cmq,pending,initial scaffold
+2026-01-16T23:15:55.839275+00:00,cmq,success,data\raw\cmq\cmq_stub.csv
+2026-01-16T23:15:55.840618+00:00,cpso,success,data\raw\north_america\canada\college_of_physicians_and_surgeons_of_ontario\cpso_stub.json
+2026-01-16T23:15:55.841639+00:00,cpsbc,success,data\raw\north_america\canada\college_of_physicians_and_surgeons_of_british_columbia\cpsbc_stub.json
