@@ -7,3 +7,4 @@
 - Adds placeholder directories and notes for global regulator and meta-data sources
 - Details scrape URLs, throttle guidance, and legal references per source README
 - Adds scripts/maintenance/update_source_placeholders.py to regenerate docs programmatically
+- Adds scripts/maintenance/scaffold_source_modules.py plus initial adapter scaffolding and registry docs
