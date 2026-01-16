@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Open Physicians
+authors:
+  - family-names: BOUCHARD
+    given-names: Charlie
+    alias: PtiCalin
+    affiliation: 
+      - McGill University Health Centre
+      - Université de Montréal
+
+identifiers:
+  - type: url
+    value: https://github.com/PtiCalin/open-physicians
+message: "If you use this project, please cite it using this metadata."
+version: 0.1.0
+keywords:
+  - physicians
+  - open-data
+  - healthcare
+license: MIT

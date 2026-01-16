@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-physicians.org/schemas/physician.schema.json",
+  "title": "Physician",
+  "type": "object",
+  "required": ["physician_id", "full_name", "license_status", "specialty_code", "location_code"],
+  "properties": {
+    "physician_id": {"type": "string", "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$"},
+    "full_name": {"type": "string", "minLength": 1},
+    "license_status": {"type": "string"},
+    "specialty_code": {"type": "string"},
+    "location_code": {"type": "string"},
+    "source": {"type": "string"},
+    "updated_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,5 @@
+specialty_field: "Specialite"
+status_field: "Statut"
+location_field: "Region"
+identifier_field: "Numero"
+name_field: "Nom"

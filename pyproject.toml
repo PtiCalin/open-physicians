@@ -1,0 +1,17 @@
+[project]
+name = "open-physicians"
+version = "0.1.0"
+description = "Open data pipeline for aggregating physician registries."
+authors = [{ name = "Open Physicians Collective" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["black", "ruff", "pytest"]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
