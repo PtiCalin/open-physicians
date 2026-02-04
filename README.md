@@ -8,6 +8,7 @@ Open Physicians curates a public, replicable pipeline for collecting and standar
 - `src/` reusable ingestion and transformation modules
 - `data/` raw inputs, cleaned exports, and supporting metadata
 - `scripts/` runnable utilities for scraping, validation, and exports
+- `notebooks/` Jupyter workbooks for exploratory analysis
 - `.github/` issue templates and automation
 
 ## Getting Started
@@ -16,5 +17,9 @@ Open Physicians curates a public, replicable pipeline for collecting and standar
 2. Install dependencies with `pip install -r requirements.txt`
 3. Review `docs/overview.md` for data sourcing context
 4. Run `scripts/run_scraper.py` to fetch the CMQ source
+
+## Workbook
+
+Start with `notebooks/open_physicians_workbook.ipynb` to explore the cleaned dataset and validate coverage metrics.
 
 Contributions are welcome. Please open an issue with proposed enhancements or questions before submitting a pull request.
